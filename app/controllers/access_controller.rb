@@ -7,7 +7,6 @@ class AccessController < ApplicationController
   def menu
     # display text & links
     @username = session[:username]
-
   end
 
   def login
